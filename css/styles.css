@@ -1,0 +1,38 @@
+/*
+ * css
+ */
+
+.state {
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: .5em;
+    width: 6em;
+}
+.remote {
+    border: 5px solid blue;
+    border-radius: 50px;
+    margin: 10px auto;
+    padding: 10em 5px 10px 5px;
+    width: 30%;
+}
+.remote p {
+    text-align: center;
+}
+audio, video {
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+}
+.nav, .main {
+    margin: 10px auto;
+}
+.nav {
+    float: left;
+    min-width: 200px;
+    outline: 1px solid red;
+}
+.main {
+    float: left;
+    text-align: center;
+    width: 500px;
+}
